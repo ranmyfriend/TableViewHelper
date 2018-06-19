@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TSpoon.xcodeproj">
+      location = "self:/Users/ranjit/Documents/workspace/Experiments/TSpoon/TableViewHelper.xcodeproj">
    </FileRef>
 </Workspace>

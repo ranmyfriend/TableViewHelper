@@ -8,20 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		07C004D520D95AE5008B0C22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C004D420D95AE5008B0C22 /* AppDelegate.swift */; };
-		07C004D720D95AE5008B0C22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C004D620D95AE5008B0C22 /* ViewController.swift */; };
-		07C004DA20D95AE5008B0C22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C004D820D95AE5008B0C22 /* Main.storyboard */; };
 		07C004DC20D95AE8008B0C22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07C004DB20D95AE8008B0C22 /* Assets.xcassets */; };
 		07C004DF20D95AE8008B0C22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C004DD20D95AE8008B0C22 /* LaunchScreen.storyboard */; };
+		07C004E720D95B1F008B0C22 /* TableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C004E620D95B1F008B0C22 /* TableViewHelper.swift */; };
+		07C004E920D95C8F008B0C22 /* TVDataSourceConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C004E820D95C8F008B0C22 /* TVDataSourceConfigurable.swift */; };
+		07C004EB20D98A31008B0C22 /* Resuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C004EA20D98A30008B0C22 /* Resuable.swift */; };
+		07C004ED20D996DD008B0C22 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C004EC20D996DD008B0C22 /* Model.swift */; };
+		07C004EF20D996F0008B0C22 /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C004EE20D996F0008B0C22 /* TableViewModel.swift */; };
+		07C004F120D99705008B0C22 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C004F020D99705008B0C22 /* TableViewController.swift */; };
+		07C004F320D9971A008B0C22 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C004F220D9971A008B0C22 /* TableViewCell.swift */; };
+		07C004F820D99943008B0C22 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07C004F620D998F5008B0C22 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07C004D120D95AE5008B0C22 /* TSpoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSpoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07C004D120D95AE5008B0C22 /* TableViewHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07C004D420D95AE5008B0C22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		07C004D620D95AE5008B0C22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		07C004D920D95AE5008B0C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		07C004DB20D95AE8008B0C22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07C004DE20D95AE8008B0C22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		07C004E020D95AE8008B0C22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07C004E620D95B1F008B0C22 /* TableViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHelper.swift; sourceTree = "<group>"; };
+		07C004E820D95C8F008B0C22 /* TVDataSourceConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDataSourceConfigurable.swift; sourceTree = "<group>"; };
+		07C004EA20D98A30008B0C22 /* Resuable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resuable.swift; sourceTree = "<group>"; };
+		07C004EC20D996DD008B0C22 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		07C004EE20D996F0008B0C22 /* TableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
+		07C004F020D99705008B0C22 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		07C004F220D9971A008B0C22 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		07C004F620D998F5008B0C22 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +49,7 @@
 		07C004C820D95AE5008B0C22 = {
 			isa = PBXGroup;
 			children = (
-				07C004D320D95AE5008B0C22 /* TSpoon */,
+				07C004D320D95AE5008B0C22 /* TableViewHelper */,
 				07C004D220D95AE5008B0C22 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +57,51 @@
 		07C004D220D95AE5008B0C22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				07C004D120D95AE5008B0C22 /* TSpoon.app */,
+				07C004D120D95AE5008B0C22 /* TableViewHelper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07C004D320D95AE5008B0C22 /* TSpoon */ = {
+		07C004D320D95AE5008B0C22 /* TableViewHelper */ = {
 			isa = PBXGroup;
 			children = (
 				07C004D420D95AE5008B0C22 /* AppDelegate.swift */,
-				07C004D620D95AE5008B0C22 /* ViewController.swift */,
-				07C004D820D95AE5008B0C22 /* Main.storyboard */,
+				07C004F520D99892008B0C22 /* Fruits */,
+				07C004F420D99889008B0C22 /* Model */,
+				07C004E820D95C8F008B0C22 /* TVDataSourceConfigurable.swift */,
+				07C004EA20D98A30008B0C22 /* Resuable.swift */,
+				07C004E620D95B1F008B0C22 /* TableViewHelper.swift */,
 				07C004DB20D95AE8008B0C22 /* Assets.xcassets */,
 				07C004DD20D95AE8008B0C22 /* LaunchScreen.storyboard */,
-				07C004E020D95AE8008B0C22 /* Info.plist */,
+				07C004F620D998F5008B0C22 /* Info.plist */,
 			);
-			path = TSpoon;
+			path = TableViewHelper;
+			sourceTree = "<group>";
+		};
+		07C004F420D99889008B0C22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07C004EC20D996DD008B0C22 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07C004F520D99892008B0C22 /* Fruits */ = {
+			isa = PBXGroup;
+			children = (
+				07C004F020D99705008B0C22 /* TableViewController.swift */,
+				07C004EE20D996F0008B0C22 /* TableViewModel.swift */,
+				07C004F220D9971A008B0C22 /* TableViewCell.swift */,
+			);
+			path = Fruits;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		07C004D020D95AE5008B0C22 /* TSpoon */ = {
+		07C004D020D95AE5008B0C22 /* TableViewHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 07C004E320D95AE8008B0C22 /* Build configuration list for PBXNativeTarget "TSpoon" */;
+			buildConfigurationList = 07C004E320D95AE8008B0C22 /* Build configuration list for PBXNativeTarget "TableViewHelper" */;
 			buildPhases = (
 				07C004CD20D95AE5008B0C22 /* Sources */,
 				07C004CE20D95AE5008B0C22 /* Frameworks */,
@@ -79,9 +111,9 @@
 			);
 			dependencies = (
 			);
-			name = TSpoon;
+			name = TableViewHelper;
 			productName = TSpoon;
-			productReference = 07C004D120D95AE5008B0C22 /* TSpoon.app */;
+			productReference = 07C004D120D95AE5008B0C22 /* TableViewHelper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 07C004CC20D95AE5008B0C22 /* Build configuration list for PBXProject "TSpoon" */;
+			buildConfigurationList = 07C004CC20D95AE5008B0C22 /* Build configuration list for PBXProject "TableViewHelper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +144,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				07C004D020D95AE5008B0C22 /* TSpoon */,
+				07C004D020D95AE5008B0C22 /* TableViewHelper */,
 			);
 		};
 /* End PBXProject section */
@@ -122,9 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C004F820D99943008B0C22 /* Info.plist in Resources */,
 				07C004DF20D95AE8008B0C22 /* LaunchScreen.storyboard in Resources */,
 				07C004DC20D95AE8008B0C22 /* Assets.xcassets in Resources */,
-				07C004DA20D95AE5008B0C22 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +167,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07C004D720D95AE5008B0C22 /* ViewController.swift in Sources */,
+				07C004ED20D996DD008B0C22 /* Model.swift in Sources */,
+				07C004F320D9971A008B0C22 /* TableViewCell.swift in Sources */,
+				07C004F120D99705008B0C22 /* TableViewController.swift in Sources */,
+				07C004EB20D98A31008B0C22 /* Resuable.swift in Sources */,
+				07C004E720D95B1F008B0C22 /* TableViewHelper.swift in Sources */,
+				07C004EF20D996F0008B0C22 /* TableViewModel.swift in Sources */,
+				07C004E920D95C8F008B0C22 /* TVDataSourceConfigurable.swift in Sources */,
 				07C004D520D95AE5008B0C22 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +181,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		07C004D820D95AE5008B0C22 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				07C004D920D95AE5008B0C22 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		07C004DD20D95AE8008B0C22 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,7 +312,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXZ8QVDCM8;
-				INFOPLIST_FILE = TSpoon/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TableViewHelper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +331,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXZ8QVDCM8;
-				INFOPLIST_FILE = TSpoon/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/TableViewHelper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +347,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		07C004CC20D95AE5008B0C22 /* Build configuration list for PBXProject "TSpoon" */ = {
+		07C004CC20D95AE5008B0C22 /* Build configuration list for PBXProject "TableViewHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07C004E120D95AE8008B0C22 /* Debug */,
@@ -324,7 +356,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		07C004E320D95AE8008B0C22 /* Build configuration list for PBXNativeTarget "TSpoon" */ = {
+		07C004E320D95AE8008B0C22 /* Build configuration list for PBXNativeTarget "TableViewHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				07C004E420D95AE8008B0C22 /* Debug */,
