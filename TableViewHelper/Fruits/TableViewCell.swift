@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-class TableViewCell: UITableViewCell {}
+final class TableViewCell: UITableViewCell {}
 
 extension TableViewCell {
     func configureCell(model: Fruit) {

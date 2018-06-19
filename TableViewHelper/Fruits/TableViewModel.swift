@@ -1,7 +1,7 @@
 import Foundation
+import UIKit
 
-class TableViewModel:TVDataSourceConfigurable {
-
+final class TableViewModel: NSObject {
     //(i)Simply we are populating the TableView with Strings
     //    var array: [String] = ["Apple","Orange","Pineapple","Grapes","Gova"]
     //    typealias T = String
@@ -17,12 +17,23 @@ class TableViewModel:TVDataSourceConfigurable {
 
     //(iii)Here we have Fruits Model and it has one array and it contains list of fruits and we are populating this on TableView
     let fruits: Fruits
+
+    init(fruits: Fruits) {
+        self.fruits = fruits
+    }
+}
+
+//MARK: - TableViewDataSource methods
+extension TableViewModel: TVDataSourceConfigurable {
     typealias T = Fruit
     var array: [Fruit] {
         return fruits.fruits
     }
+}
 
-    init(fruits: Fruits) {
-        self.fruits = fruits
+//MARK: - TableViewDelegate methods
+extension TableViewModel: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        debugPrint(#function)
     }
 }

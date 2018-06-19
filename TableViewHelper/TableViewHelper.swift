@@ -6,8 +6,8 @@ import UIKit
  B -> UITableViewCell or Custom TableViewCell
  C -> T String or Model or whatEver (ie.[T]-> What is about T?)
  */
-class TableViewHelper<A:TVDataSourceConfigurable,B,C>: NSObject, UITableViewDataSource where B:UITableViewCell {
-    private let source:A
+final class TableViewHelper<A: TVDataSourceConfigurable, B, C>: NSObject, UITableViewDataSource where B: UITableViewCell {
+    private let source: A
     private let configureCell: CellConfiguration
     typealias CellConfiguration = (B, C) -> B
 
@@ -27,6 +27,8 @@ class TableViewHelper<A:TVDataSourceConfigurable,B,C>: NSObject, UITableViewData
         }
         return cell
     }
+   
 }
+
 
 
