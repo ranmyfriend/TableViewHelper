@@ -11,7 +11,8 @@ protocol TVDataSourceConfigurable {
 
     func numberOfSections() -> Int
     func numberOfRows(in section: Int) -> Int
-    func cellForRow(at indexPath: IndexPath) -> T
+    func cellForRow(at indexPath: IndexPath) -> T?
+    func titleForHeader(in section: Int) -> String?
 }
 
 extension TVDataSourceConfigurable {
@@ -21,7 +22,10 @@ extension TVDataSourceConfigurable {
     func numberOfRows(in section: Int) -> Int {
         return array.count
     }
-    func cellForRow(at indexPath: IndexPath) -> T {
+    func cellForRow(at indexPath: IndexPath) -> T? {
         return array[indexPath.row]
+    }
+    func titleForHeader(in section: Int) -> String? {
+        return nil
     }
 }
