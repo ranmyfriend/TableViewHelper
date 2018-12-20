@@ -26,7 +26,7 @@ import UIKit
 
 //You can't add extension for this class:
 //Refer:https://stackoverflow.com/questions/48386613/make-an-extensions-of-generic-class-in-swift4
-final class TableViewHelper<A: TVDataSourceConfigurable, B, C>: NSObject, UITableViewDataSource where B: UITableViewCell {
+final class TableViewHelper<A: TVDataSourceConfigurable&TVDelegateConfigurable, B, C>: NSObject, UITableViewDataSource&UITableViewDelegate where B: UITableViewCell {
     private let source: A
     private let configureCell: CellConfiguration
     typealias CellConfiguration = (B, C) -> B
@@ -54,6 +54,10 @@ final class TableViewHelper<A: TVDataSourceConfigurable, B, C>: NSObject, UITabl
 
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return source.titleForHeader(in: section)
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+         source.didSelectRow(at: indexPath)
     }
 
 }

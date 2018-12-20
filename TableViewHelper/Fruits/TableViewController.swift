@@ -23,12 +23,11 @@ final class TableViewController: UITableViewController {
         tableView.register(TableViewCell.self, forCellReuseIdentifier: TableViewCell.reuseIdentifier)
         let viewModel = TableViewModel(fruits:Fruits(fruits: mockData))
         tableDataSource = TableViewHelper(source: viewModel) {cell,model in
-            cell.selectionStyle = .none
             cell.configureCell(model: model)
             return cell
         }
         tableView.dataSource = tableDataSource
-        tableView.delegate = viewModel
+        tableView.delegate = tableDataSource
         tableView.reloadData()
     }
 }

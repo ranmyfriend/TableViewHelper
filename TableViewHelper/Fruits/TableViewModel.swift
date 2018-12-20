@@ -31,9 +31,9 @@ extension TableViewModel: TVDataSourceConfigurable {
     }
 }
 
-//MARK: - TableViewDelegate methods
-extension TableViewModel: UITableViewDelegate {
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        debugPrint(#function)
+extension TableViewModel: TVDelegateConfigurable {
+    func didSelectRow(at indexPath: IndexPath) {
+        let fruit = fruits.fruits[indexPath.row]
+        print("you have clicked: \(fruit.name)")
     }
 }
